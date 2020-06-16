@@ -18,7 +18,7 @@
                 <p> Admin: <input type="text" name="Admin" ></p>
                 <p>Password:<input type="password" name="pass"></p>
                 <p><input type="submit" value="Submit"></p>
-        
+                <p><a href="main.jsp">Back to main page</a>
                </center></div>
         </form>
       </body>

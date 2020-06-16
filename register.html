@@ -9,11 +9,14 @@ and open the template in the editor.
         <title>register.com</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <h1>PERSONAL DETAILS</h1>
-        <div>
-            <center>
+    <body id="bg">
+        <img src="1.png">
+    <h1>PERSONAL DETAILS</h1>
+    <div align="center">
+            <!--center-->
         
             <form method="post" action="register.jsp">
                 <p>Username:<input type="text" name="username"></p>
@@ -22,10 +25,12 @@ and open the template in the editor.
                 <p>Class : <input type="text" name="class"></p>
                 <p> Age : <input type="number" name="age"></p>
                 <p> Phone : <input type="number" name="phone"></p>
-                <center> <input type="submit" value="Register"> </center>
+                <input type="submit" value="Register"> 
+                    <input type="reset" value="Cancel">
+                    <p><a href="main.jsp">Back to main page</a></p>
             </form>    
             
-             <center>
+             <!--center-->
             </div>
             
     </body>

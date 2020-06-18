@@ -38,7 +38,7 @@
 <div class="jumbotron7">
   <div class="container text-center">
     <h1>Courses</h1>      
-    <p>Mission, Vission & Values</p>
+    <!--p>Mission, Vission & Values</p-->
   </div>
 </div>
 
@@ -55,11 +55,12 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="home.jsp">HOME</a></li>
-        
-        <!--<li><a href="#">Contact</a></li>-->
+        <li><a href="quiz.jsp">QUIZ</a></li>
+        <li><a href="#">ASSIGNMENTS</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="home.jsp"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="main.jsp" class="active">Logout</a></li>
         <!--<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>-->
       </ul>
     </div>

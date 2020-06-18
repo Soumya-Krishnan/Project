@@ -15,8 +15,8 @@
            <div id="f"> <center>
          
             
-                <p> Admin: <input type="text" name="Admin" ></p>
-                <p>Password:<input type="password" name="pass"></p>
+                <p> Admin: <input type="text" name="Admin" required ></p>
+                <p>Password:<input type="password" name="pass" required></p>
                 <p><input type="submit" value="Submit"></p>
                 <p><a href="main.jsp">Back to main page</a>
                </center></div>
